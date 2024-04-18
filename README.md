@@ -1,2 +1,3 @@
 # react
-Atvidades práticas sobre front
+Atividades práticas do Terceiro Bloco do Bootcamp Generation
+Front End
