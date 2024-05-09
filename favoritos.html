@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiro Projeto HTML</title>
+    <title>Primeiro Projeto HTML com CSS</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="background-color:pink;">
-    <ul> 
+<body style="background-color:pink">
+    <ul id="menu"> 
         <li>
             <a href="file:///C:/Users/Giovanna/OneDrive/%C3%81rea%20de%20Trabalho/fundamentos-web/praticas/react/index.html">🌸 Sobre mim</a>
         </li>
@@ -17,19 +18,29 @@
         </li>
     </ul>
 
-    <h1>Produtinhos favoritos</h1>
+    <h1 class="center">Produtinhos favoritos</h1>
 
-    <h2>👄 Lip Sleeping Mask - Laneige 👄</h2>
+    <h1 class="center">👄 Lip Sleeping Mask - Laneige 👄</h2>
 
-    <img src="C:\Users\Giovanna\OneDrive\Área de Trabalho\fundamentos-web\praticas\react\assets\img\lipmask.jpg" alt="Lip Sleeping Mask" width="230" height="237">
+    <div class="container">
 
-    <p style="font-size:130%">Uma das minhas paixões são hidratantes labias, e esse com toda certeza é o meu queridinho! Além de hidratar tem um cheirinho incrível!</p>
+        <div>
+            <img src="C:\Users\Giovanna\OneDrive\Área de Trabalho\fundamentos-web\praticas\react\assets\img\lipmask.jpg" alt="Lip Sleeping Mask" width="230" height="237">
+        </div>
+        <div>
+            <p style="font-size:130%">Uma das minhas paixões são hidratantes labias, e esse com toda certeza é o meu queridinho! Além de hidratar tem um cheirinho incrível!</p>
+        </div>
+    </div>
+    <h1 class="center">🌞 Protetor Solar - Sallve 🌞</h2>
+    <div class="container">
+        <div>
+             <img src="C:\Users\Giovanna\OneDrive\Área de Trabalho\fundamentos-web\praticas\react\assets\img\protetorsolar.webp" alt="Protetor Solar">
+        </div>
+        <div>
+            <p style="font-size:130%">Possui FPS 50 e sem fragrância, é ótimo para peles oleosas, pois possui toque seco dando uma finalização muito boa na pele.</p>
+        </div>
 
-    <h2>🌞 Protetor Solar - Sallve 🌞</h2>
-
-    <img src="C:\Users\Giovanna\OneDrive\Área de Trabalho\fundamentos-web\praticas\react\assets\img\protetorsolar.webp" alt="Protetor Solar">
-
-    <p style="font-size:130%">Possui FPS 50 e sem fragrância, é ótimo para peles oleosas, pois possui toque seco dando uma finalização muito boa na pele.</p>
+    </div>
 
 </body>
 </html>
