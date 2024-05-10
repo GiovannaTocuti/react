@@ -14,7 +14,7 @@
     color: white;
 }
 
-/* Estilos das páginas index.html e favoritos.html */
+/* Estilos das páginas index.html, favoritos.html e contato.html*/
 .container {
     display: flex;
     justify-content: flex-start;
@@ -35,5 +35,16 @@
     font-family: segoe script;
     text-align: center;
     font-size: 20px;
+}
+
+/* Estilização do formulário de contato */
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container > div {
+    font-size: 20px;
+    padding: 20px;
 }
 
